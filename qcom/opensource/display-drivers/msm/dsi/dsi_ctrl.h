@@ -314,6 +314,7 @@ struct dsi_ctrl {
 	bool modeupdated;
 	bool split_link_supported;
 	bool enable_cmd_dma_stats;
+	bool max_hs_timer_supported;
 	bool cmd_mode;
 	u32 cmd_trigger_line;
 	u32 cmd_trigger_frame;
